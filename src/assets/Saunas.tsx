@@ -1,8 +1,10 @@
+/* importing all images */
 import alignThermo from "./Align_Thermo.png"
 import align from "./Align.png"
 import balanceThermo from "./Balance-Thermo.png"
 import balance from "./Balance.png"
 
+/*dummy information*/
 const testSauna = [
     {
         id: 0,

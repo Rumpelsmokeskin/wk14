@@ -6,6 +6,8 @@ const cardStyle = {
     width: '25rem',
     center: 'text-center'
 }
+
+/* this is the card view of which sauna will be selected.  It will display a large image of the sauna, it's name and descriptive text.  The toolbutton will take info from input text and update the sauna info */
 export default function SaunaView({sauna}: { sauna: {image: string, name: string, text: string }}){
     return(
         <div className="container d-flex flex-grow-1 flex-column justify-content-center">
